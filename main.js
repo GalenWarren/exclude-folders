@@ -38,6 +38,6 @@ define(function (require, exports, module) {
             return false;
         }
         
-        return !name.match(/node_modules|jspm_packages/);
+        return !name.match(/node_modules|jspm_packages|.metadata/);
     };
 });
